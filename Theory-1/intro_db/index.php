@@ -2,11 +2,11 @@
     $server="localhost";
     $user="root";
     $password="";
-    $db="wt_spring21_final";
+    $db="wt_sp21_final";
     $conn = mysqli_connect($server,$user,$password,$db);
     if($conn)
     {
-        echo "Connected";
+        echo "Connected<br>";
     }
     else{
         echo mysqli_connect_error();

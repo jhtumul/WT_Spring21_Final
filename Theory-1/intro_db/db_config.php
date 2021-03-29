@@ -2,13 +2,13 @@
         $db_server="localhost";
         $db_user="root";
         $db_password="";
-        $db_name="wt_spring21_final";
+        $db_name="wt_sp21_final";
 
         function execute($query)
         {
             global $db_server,$db_user,$db_password,$db_name;
             $conn = mysqli_connect($db_server,$db_user,$db_password,$db_name);
-            mysqli_query($conn,$query);
+            $result = mysqli_query($conn,$query);
         }
 
         function get($query)
