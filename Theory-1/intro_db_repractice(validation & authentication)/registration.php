@@ -123,8 +123,8 @@
     <head></head>
     <body>
         <form method="post">
-            <input type="text" name="uname" placeholder="username"><br>
-            <input type="password" name="pass" placeholder="password"><br>
+            <input type="text" name="uname" placeholder="username" value="<?php echo $uname;?>"><br>
+            <input type="password" name="pass" placeholder="password" value="<?php echo $pass;?>"><br>
             <input type="submit" name="register" value="register">
         </form>
         <a href="login.php">Already Have Account?</a>
